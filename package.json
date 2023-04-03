@@ -1,0 +1,28 @@
+{
+  "name": "bobotarmcontroller",
+  "version": "1.0.0",
+  "description": "GRBL!!!!!!!!!!!!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamienB325/BobotArmController.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamienB325/BobotArmController/issues"
+  },
+  "homepage": "https://github.com/DamienB325/BobotArmController#readme",
+  "dependencies": {
+    "@serialport/parser-readline": "^10.5.0",
+    "serialport": "^10.5.0",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/serialport": "^8.0.2"
+  }
+}
