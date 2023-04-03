@@ -4,7 +4,7 @@ import { SerialPort } from 'serialport'
 import { ReadlineParser } from '@serialport/parser-readline'
 export function main() {
     let serialPort: SerialPort = new SerialPort({path: "/dev/cu.URT1", baudRate: 115200});
-    
+
     const parser = serialPort.pipe(new ReadlineParser({ delimiter: "\r\n" }));
 
     serialPort.on("open", () => {
